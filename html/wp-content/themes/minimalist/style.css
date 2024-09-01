@@ -1,0 +1,170 @@
+html {
+  font-size: 62.5%;
+}
+
+a {
+  color: #676769;
+  text-decoration: none;
+}
+p {
+  margin: 1.6rem 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: #535355;
+}
+
+main {
+  min-height: calc(100vh - 105px - 32px);
+}
+
+/* Header */
+.header {
+  padding: 1.6rem 0;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+.header__description {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+
+}
+
+
+/* Footer */
+.footer {
+
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__description {
+  font-size: 1.4rem;
+}
+
+/* Main */
+.index {
+
+}
+
+.index-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post-list {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  display: block;
+  padding: 2.4rem 1.6rem;
+  border-bottom: 1px solid #d6d6d6;
+  transition: all .2s;
+}
+
+.post:hover {
+  background: #f5f5f5;
+}
+
+.post__title {
+  font-size: 2.0rem;
+  font-weight: 300;
+}
+
+.post__time {
+  display: inline-block;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  margin-top: 0.4rem;
+}
+
+.post__categories {
+  margin-top: 1.2rem;
+}
+
+
+/* Page */
+.page {
+
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Single */
+.single {
+
+}
+
+.single-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3.2rem;
+}
+
+/* Article */
+.article {
+
+}
+
+.article__title {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.article__info {
+  display: flex;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+
+.article__time {
+  margin-right: 0.8rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.article__body {
+  max-width: 760px;
+  margin-top: 3.6rem;
+}
+
+.article__categories {
+  margin-top: 0.8rem;
+}
+
+/* Category */
+.category-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  /* background: #9f9fa8; */
+  font-size: 1.2rem;
+  color: #6a6a6a;
+  border: 1px solid #c7c7c7;
+}
